@@ -1,0 +1,303 @@
+#header{
+  min-height: 100px;
+  background-color: #1d2026;
+}
+
+#menu{ min-height: 100px;
+  background-color: #1d2026;
+}
+
+#body{
+  min-height: 400px;
+  margin-top: 3%;
+  background-color: #1d2026;;
+}
+#footer{
+  min-height: 100px;
+  margin-top: 3%;
+  background-color: #efefef;
+}
+
+#header, #menu, #body, #footer{
+  margin-left: 10%;
+  margin-right:10%;
+  box-shadow: 3px 5px 7px; ;
+  border: 1px solid black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+.hero {
+  background: #1d2026;
+  min-height: 100vh;
+  width: 100%;
+  color: #fff;
+  position: relative;
+}
+nav {
+  display: flex;
+  align-items: center;
+  padding: 20px 8%;
+}
+nav .bar-img {
+  width: 425px;
+  height: 150px;
+  margin-right: 22px;
+  margin-top: -2cm;
+  cursor: pointer;
+}
+nav .WAA {
+  width: 50%;
+  cursor: pointer;
+  margin-left: 0px;
+  margin-top: 1cm;
+  border-bottom-style: groove;
+  border-radius: -5px;
+}
+nav ul {
+  flex: 1;
+  text-align: right;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+button {
+  background: #efefef;
+  height: 30px;
+  width: 60px;
+  border-radius: 20px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+button span {
+  display: block;
+  background: #999;
+  height: 26px;
+  width: 26px;
+  border-radius: 50%;
+  margin-left: 2px;
+  transition: background 0.5s margin-left 0.5s;
+}
+.anonymus1-Container {
+  position: absolute;
+  top: 140px;
+  right: center;
+  width: 1600px;
+}
+
+
+.anonymus1 {
+  width: 15%;  height: 160;
+
+}
+.anonimi {
+  display: block;
+  position: absolute;
+  line-height: 555px;
+  transform: translate(-50%);
+  width: 920px;
+  margin-left: 700px;
+  margin-right: auto ;
+  opacity: 0;
+  transition: opacity 0.5s;
+  border-bottom: #1d2026;
+}
+.text-Container {
+  max-width: 600px;
+  margin-top: 7%;
+  margin-left: 50%;
+}
+.text-Container h1 {
+  font-size: 80px;
+  font-weight: 400;
+}
+.text-Container a {
+  text-decoration: none;
+  background: #00986f;
+  padding: 14px 40px;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  margin-top: 30px;
+  border-radius: 30px;
+}
+.control {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 150px;
+}
+.control .line {
+  width: 250px;
+  height: 4px;
+  background: #fff;
+  margin: 0 20px;
+  border-radius: 2px;
+}
+.control .line span {
+  width: 50%;
+  height: 8px;
+  margin-top: -2px;
+  border-radius: 4px;
+  background: #00986f;
+  display: block;
+}
+.active {
+  background: green;
+}
+.active span {
+  background: #fff;
+  margin-left: 31px;
+}
+.on {
+  opacity: 1;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+background: rgb(34, 128, 99);
+}
+.wrapper{
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    width:600px;
+    min-height: 400px;
+    margin: 20px;
+}
+
+.wrapper .row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+.wrapper .form .row .input-group{
+    padding: 0 20px;
+    display: block;
+}
+.wrapper .form .row .input-group:first-child{
+padding-left: 0;
+}
+
+.wrapper .form .row .input-group:last-child{
+    padding-right: 0;
+    }
+
+.wrapper .form .input-group{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 50px;
+}
+.wrapper .form .input-group label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.wrapper .form .input-group .btn{
+    margin: 20px;
+    display: block;
+    padding: .7rem 2rem;
+    opacity: .8;
+    color:#fff;
+    background: rgb(34, 128, 99);
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: .3s ease-in;
+}
+
+.wrapper .form .input-group .btn:hover {
+    opacity: 1;
+}
+
+.wrapper .form .input-group input, .wrapper .form .input-group textarea {
+    width: 100%;
+    height: 100%;
+border: 1px solid rgb(34, 128, 99);
+outline: none;
+padding: 5px 10px;
+}
+
+.wrapper .form .row .input-group {
+    width: 290px;
+}
+
+.wrapper .form .input-group.textarea {
+    resize: none;
+    height: 200px;
+}
+
+.wrapper .form .input-group.textarea textarea {
+    resize: none;
+}
+
+.wrapper .prev-comments{
+    margin-top: 50px;
+}
+
+.wrapper .prev-comments{
+    margin-top: 50px;
+}
+
+.wwrapper .prev-comments .single-item {
+background: #fff;
+box-shadow:  0 5px 10px rgba(0,0,0,0.2);
+padding: 10px 20px;
+text-align: left;
+margin-bottom: 25px;
+}
+.wrapper .prev-comments .single-item h4 {
+font-size: 1.5rem;
+font-weight: 800;
+color:#111;
+}
+
+.wrapper .prev-comments .single-item a {
+    margin: 10px 0;
+    font-size:  1rem;
+    color: #111;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.wrapper .prev-comments .single-item p {
+    font-size: .9rem;
+    color: #111;
+}
+
+.Container{
+  width: 90%;
+  margin: 2vh;
+  background: rgb(72, 76, 97);
+  padding:1rem;
+  
+  font-size: clamp(1rem, 2vw, 2rem);
+  line-height: 1.5em; } @media (min-width: 300px;)  {.Container { margin: 4vh; padding: 3rem; } }
+@media (min-width: 500px) {.Container { margin:2vw; padding: 2rem;} }
+@media (min-width: 800px) {.Container { margin:7vw; padding: 3rem;} }
+@media (min-width: 500px) {.DescrierePrincipala {margin-bottom:  0.5em;} }
