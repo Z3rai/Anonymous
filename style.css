@@ -103,7 +103,8 @@ button span {
   right: center;
   width: 500px;
 }
-
+.text { text-align: right;
+}
 
 .anonymus1 {
   width: 15%;  height: 160;
@@ -129,6 +130,7 @@ button span {
 .text-Container h1 {
   font-size: 80px;
   font-weight: 400;
+  text-align: right;
 }
 .text-Container a {
   text-decoration: none;
